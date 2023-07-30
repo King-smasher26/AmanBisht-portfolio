@@ -250,6 +250,7 @@ body {
 #Skills-text {
   font-weight: 100;
   position: relative;
+  border:2px solid pink;
   top: 230px;
   color: whitesmoke;
   text-shadow: 16px 13px 0px rgba(0, 0, 0, 0.56);
