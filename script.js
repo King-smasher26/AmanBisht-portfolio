@@ -2,7 +2,7 @@
 
 var w = window.innerWidth;
 
-if(w>1250){
+if(w>1300){
 
     gsap.registerPlugin(ScrollTrigger);
     
