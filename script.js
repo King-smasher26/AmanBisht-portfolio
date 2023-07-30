@@ -6,50 +6,42 @@ var w = window.innerWidth;
 
     gsap.registerPlugin(ScrollTrigger);
     
-        gsap.from("#SK1", {
-            y: "-50%",
-            x:"-50%",
-            scale:1.3,
-            duration: 2,
-            scrollTrigger: {
-                trigger: "#SK1",
-                // markers:true,
-                start: "center 100%",
-                end: "center 0%",
-                // scrub: 4,
-                toggleActions: "restart reverse restart reverse"
-                // toggleActions:"restart none none none"
-            }
-        })
-        gsap.from("#SK2", {
-            y: "-50%",
-            duration: 2,
-            scale:1.3,
-            scrollTrigger: {
-                trigger: "#SK2",
-                // markers:true,
-                start: "center 100%",
-                end: "center 0%",
-                // scrub: 4,
-                toggleActions: "restart reverse restart reverse"
-                // toggleActions:"restart none none none"
-            }
-        })
-        gsap.from("#SK3", {
-            y: "-50%",
-            x:"50%",
-            scale:1.3,
-            duration: 2,
-            scrollTrigger: {
-                trigger: "#SK3",
-                // markers:true,
-                start: "center 100%",
-                end: "center 0%",
-                // scrub: 4,
-                toggleActions: "restart reverse restart reverse"
-                // toggleActions:"restart none none none"
-            }
-        })
+        // gsap.from("#SK1", {
+        //     y: "-50%",
+        //     x:"-50%",
+        //     scale:1.3,
+        //     duration: 2,
+        //     scrollTrigger: {
+        //         trigger: "#SK1",
+        //         start: "center 100%",
+        //         end: "center 0%",
+        //         toggleActions: "restart reverse restart reverse"
+        //     }
+        // })
+        // gsap.from("#SK2", {
+        //     y: "-50%",
+        //     duration: 2,
+        //     scale:1.3,
+        //     scrollTrigger: {
+        //         trigger: "#SK2",
+        //         start: "center 100%",
+        //         end: "center 0%",
+        //         toggleActions: "restart reverse restart reverse"
+        //     }
+        // })
+        // gsap.from("#SK3", {
+        //     y: "-50%",
+        //     x:"50%",
+        //     scale:1.3,
+        //     duration: 2,
+        //     scrollTrigger: {
+        //         trigger: "#SK3",
+
+        //         start: "center 100%",
+        //         end: "center 0%",
+        //         toggleActions: "restart reverse restart reverse"
+        //     }
+        // })
         
         gsap.set('.follower', { xPercent: -50, yPercent: -50 });
         gsap.set('.cursor', { xPercent: -50, yPercent: -50 });
