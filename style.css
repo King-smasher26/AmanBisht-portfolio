@@ -151,9 +151,9 @@ body {
   margin-left: 7px;
 }
 
-/* * {
+* {
   cursor: none;
-} */
+}
 
 body {
     background-color: black;
@@ -535,7 +535,10 @@ a{
 
 @media screen and (max-width :1000px) {
   
-  
+    * {
+        cursor: visible;
+      }
+      
   #Skills-text{
     margin-top: 20%;
     overflow-y: hidden;
