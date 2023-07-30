@@ -106,6 +106,8 @@ body {
 }
 
 .Skill-interior {
+
+    /* display: flex; */
   border: solid 1px white;
   height: 50vh;
     width: 20vw;
@@ -474,7 +476,7 @@ a{
 
 /* FINAL MEDIA CHANGES */
  
-@media screen and (max-width :1300px) {
+@media screen and (max-width :800px) {
   nav{
     text-align: center;
   }
