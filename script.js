@@ -2,7 +2,7 @@
 
 var w = window.innerWidth;
 
-if(w>1300){
+
 
     gsap.registerPlugin(ScrollTrigger);
     
@@ -202,8 +202,7 @@ if(w>1300){
                 start: 'bottom bottom'
             }
         })
-        
-    }
+        // ends here
 
     // gsap.to('#avatar-img', {
     //     scale: 1,
