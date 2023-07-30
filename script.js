@@ -1,7 +1,7 @@
 // SKILLS CARD SCRIPT
 
 var w = window.innerWidth;
-if(w>1300){
+if(w>1100){
     
     
     
